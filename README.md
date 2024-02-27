@@ -1,1 +1,1 @@
-![run main.py](https://github.com/EngResumeBot/img-qual-enforcer/actions/workflows/run.yml/badge.svg)
+![run main.py](https://github.com/img-qual-enforcer/bot/actions/workflows/run.yml/badge.svg)
