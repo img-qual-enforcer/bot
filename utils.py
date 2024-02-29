@@ -3,11 +3,9 @@ import sys
 import logging
 import praw
 
-RATELIMIT_SECONDS = 600
-
 SUB_NAME = os.environ["SUB_NAME"]
 
-MIN_IMAGE_WIDTH_PX = 849
+MIN_IMAGE_WIDTH_PX = os.environ["MIN_IMAGE_WIDTH_PX"]
 
 REMOVAL_MESSAGE = """
 **Hi /u/{author}, please follow the instructions below and submit a higher quality image:**  
@@ -20,7 +18,7 @@ REMOVAL_MESSAGE = """
 \n\n
     • https://imgur.com/RxxYFQe   
 \n\n
-3. On **[Desktop (New Reddit)](https://new.reddit.com/r/{sub}/submit)**, insert the PNG file into a **[text submission](https://imgur.com/8iik4YP)**  
+3. On **[DESKTOP (NEW.REDDIT)](https://new.reddit.com/r/{sub}/submit)**, insert the PNG file into a **[text submission](https://imgur.com/8iik4YP)**  
 \n\n
     • https://imgur.com/8iik4YP  
 \n\n
@@ -38,7 +36,7 @@ REMOVAL_MESSAGE = """
 \n\n
 ---
 \n\n
-*Beep boop. I am a bot, and this action was performed automatically. Please [contact the mod team](/message/compose/?to=/r/{sub}) if you have any questions or concerns.*
+*beep boop. I am a bot, and this action was performed automatically. [Message the mods](/message/compose/?to=/r/{sub}) if you have any issues posting.*
 \n\n
 ---
 """
@@ -50,7 +48,7 @@ def setup_logger():
         datefmt="%m-%d %I:%M",
         level=logging.INFO,
         handlers=[
-            logging.FileHandler("status.log", mode="a"),
+            logging.FileHandler("logs.txt", mode="a"),
             logging.StreamHandler(),
         ],
     )
@@ -63,7 +61,7 @@ def create_reddit_instance():
         client_id=os.environ["CLIENT_ID"],
         client_secret=os.environ["CLIENT_SECRET"],
         user_agent=os.environ["USER_AGENT"],
-        ratelimit_seconds=RATELIMIT_SECONDS,
+        ratelimit_seconds=os.environ["RATELIMIT_SECONDS"],
     )
     if reddit.user.me():
         logging.info("Authenticated.")

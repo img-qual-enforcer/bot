@@ -14,7 +14,10 @@ jobs:
       CLIENT_ID: ${{ secrets.CLIENT_ID }}
       CLIENT_SECRET: ${{ secrets.CLIENT_SECRET }}
       USER_AGENT: ${{ secrets.USER_AGENT }}
+      RATELIMIT_SECONDS: ${{ secrets.RATELIMIT_SECONDS }}
       SUB_NAME: ${{ secrets.SUB_NAME }}
+      MIN_IMAGE_WIDTH_PX: ${{ secrets.MIN_IMAGE_WIDTH_PX }}
+      
 
     steps:
       - name: checkout repo content
