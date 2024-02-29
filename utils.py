@@ -5,14 +5,12 @@ import praw
 
 RATELIMIT_SECONDS = 600
 
-SUB_NAME = os.environ["SUBREDDIT_NAME"]
+SUB_NAME = os.environ["SUB_NAME"]
 
 MIN_IMAGE_WIDTH_PX = 849
 
 REMOVAL_MESSAGE = """
-# Hi /u/{author}, your post was removed because a low quality image was detected.
-\n\n
-# Please follow the instructions below and [submit a higher quality image.](https://new.reddit.com/r/{sub}/submit)
+**Hi /u/{author}, please follow the instructions below and submit a higher quality image:**  
 \n\n
 ---
 \n\n
@@ -28,7 +26,7 @@ REMOVAL_MESSAGE = """
 \n\n
 ---
 \n\n
-# Please don't:  
+**Please don't:**  
 \n\n
 * Use your phone camera to take a picture of your resume  
 \n\n
@@ -40,7 +38,7 @@ REMOVAL_MESSAGE = """
 \n\n
 ---
 \n\n
-*beep boop. I am a bot, and this action was performed automatically. Please [contact the mod team](/message/compose/?to=/r/{sub}) if you have any questions or concerns.*
+*Beep boop. I am a bot, and this action was performed automatically. Please [contact the mod team](/message/compose/?to=/r/{sub}) if you have any questions or concerns.*
 \n\n
 ---
 """
