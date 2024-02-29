@@ -14,7 +14,7 @@ jobs:
       CLIENT_ID: ${{ secrets.CLIENT_ID }}
       CLIENT_SECRET: ${{ secrets.CLIENT_SECRET }}
       USER_AGENT: ${{ secrets.USER_AGENT }}
-      SUBREDDIT_NAME: ${{ secrets.SUBREDDIT_NAME }}
+      SUBREDDIT_NAME: ${{ secrets.SUB_NAME }}
 
     steps:
       - name: checkout repo content
