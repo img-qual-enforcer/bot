@@ -5,7 +5,7 @@ import praw
 
 SUB_NAME = os.environ["SUB_NAME"]
 
-MIN_IMAGE_WIDTH_PX = os.environ["MIN_IMAGE_WIDTH_PX"]
+MIN_IMAGE_WIDTH_PX = int(os.environ["MIN_IMAGE_WIDTH_PX"])
 
 REMOVAL_MESSAGE = """
 **Hi /u/{author}, please follow the instructions below and submit a higher quality image:**  
