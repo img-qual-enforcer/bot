@@ -64,7 +64,6 @@ def create_reddit_instance():
         ratelimit_seconds=os.environ["RATELIMIT_SECONDS"],
     )
     if reddit.user.me():
-        logging.info("Authenticated.")
         return reddit
     else:
         logging.error("Failed to authenticate.")
