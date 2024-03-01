@@ -14,3 +14,4 @@
 [03-01 06:29] [INFO] REMOVED 1b41ki0, 1102, _Vexatiion_
 [03-01 06:29] [INFO] APPROVED 1b41kbg, 5100, Lonely_Swing_89
 [03-01 06:29] [INFO] APPROVED 1b41eh2, 5100, 343Bot
+[03-01 06:37] [INFO] REMOVED 1b41ruf, 850, _Vexatiion_
