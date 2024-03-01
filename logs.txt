@@ -9,3 +9,5 @@
 [03-01 04:55] [INFO] REMOVED 1b3z14j, 850, luismwolf
 [03-01 05:38] [INFO] APPROVED 1b3znt0, 5100, luismwolf
 [03-01 05:38] [INFO] REMOVED 1b3z745, 1518, _Vexatiion_
+[03-01 05:46] [INFO] APPROVED 1b40dx8, 5100, ResumeFBTA99
+[03-01 05:46] [INFO] REMOVED 1b40dmj, 850, serpentstriker
