@@ -35,10 +35,6 @@ REMOVAL_MESSAGE = """
 * Upload a dark mode version of your resume  
 \n\n
 ---
-\n\n
-*beep boop. I am a bot, and this action was performed automatically. [Message the mods](/message/compose/?to=/r/{sub}) if you have any issues posting.*
-\n\n
----
 """
 
 
