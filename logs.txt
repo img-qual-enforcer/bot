@@ -6,3 +6,5 @@
 [03-04 08:23] [INFO] APPROVED 1b6ksyw, 5100, IloveJoeByron
 [03-04 08:23] [INFO] APPROVED 1b6ksq4, 5100, Awzex
 [03-04 09:18] [INFO] APPROVED 1b6mbym, 5100, resume_critique_pls
+[03-04 10:40] [INFO] APPROVED 1b6oj9q, 1700, FrankieD4680
+[03-04 10:40] [INFO] REMOVED 1b6ofub, 850, dwlakes
