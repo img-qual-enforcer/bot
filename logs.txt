@@ -27,3 +27,5 @@
 [03-05 02:52] [INFO] APPROVED 1b6u9z0, 5100, ya555
 [03-05 04:26] [INFO] APPROVED 1b6w5je, 5100, hotdogandfuzzyman
 [03-05 04:26] [INFO] REMOVED 1b6vqy8, 850, azraelgnosis
+[03-05 04:52] [INFO] APPROVED 1b6wsoq, 5100, BAMartin1618
+[03-05 04:52] [INFO] APPROVED 1b6wpp9, 5100, AsapAsad
