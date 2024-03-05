@@ -21,3 +21,5 @@
 [03-05 12:40] [INFO] APPROVED 1b6qpnd, 5100, RigeI
 [03-05 12:40] [INFO] APPROVED 1b6qp96, 5100, Successful_Aioli834
 [03-05 01:37] [INFO] APPROVED 1b6squb, 5100, XchowCowX
+[03-05 02:28] [INFO] REMOVED 1b6tqf0, 850, Anotheraccount_exe
+[03-05 02:28] [INFO] REMOVED 1b6tmo9, 1206, jspfindsfinance
