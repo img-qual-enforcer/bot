@@ -1,11 +1,11 @@
 import logging
 
 from utils import (
-    setup_logger,
-    create_reddit_instance,
     MIN_IMAGE_WIDTH_PX,
     REMOVAL_MESSAGE,
     SUB_NAME,
+    create_reddit_instance,
+    setup_logger,
 )
 
 
@@ -23,7 +23,7 @@ def convert_to_dpi(image_width: int) -> int:
     return round(image_width / 8.5)
 
 
-def remove(submission, image_width):
+def remove(submission, image_width: int) -> None:
     submission.mod.remove(spam=False)
     submission.mod.flair(text="Post Removed: Low Image Quality", css_class="remove1")
     submission.mod.lock()
@@ -35,18 +35,18 @@ def remove(submission, image_width):
     )
     submission.mod.send_removal_message(
         type="private_exposed",
-        title="Low Quality Image",
+        title="LOW QUALITY IMAGE",
         message=removal_message_with_author,
     )
     logging.info(f"REMOVED {submission.id}, {image_width}, {submission.author}")
 
 
-def approve(submission, image_width):
+def approve(submission, image_width: int) -> None:
     submission.mod.approve()
-    logging.info(f"APPROVED {submission.id}, {image_width}, {submission.author}")
+    logging.debug(f"APPROVED {submission.id}, {image_width}, {submission.author}")
 
 
-def process(submission):
+def process(submission) -> None:
     if submission.approved:
         return
 
@@ -56,7 +56,7 @@ def process(submission):
     image_width = extract_width(submission.selftext)
 
     if image_width == -1:
-        logging.warning(
+        logging.error(
             f"Unable to extract image width from body text, {submission.id}, {submission.author}"
         )
         return

@@ -1,6 +1,7 @@
+import logging
 import os
 import sys
-import logging
+
 import praw
 
 SUB_NAME = os.environ["SUB_NAME"]
