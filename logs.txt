@@ -39,3 +39,5 @@
 [03-05 11:59] [INFO] REMOVED 1b73fjs, 1036, remuAI
 [03-05 01:30] [INFO] APPROVED 1b752w2, 4961, dustyloops
 [03-05 02:24] [INFO] APPROVED 1b75sfq, 5100, remuAI
+[03-05 03:21] [INFO] REMOVED 1b77lsn, 850, luminatimids
+[03-05 03:21] [INFO] APPROVED 1b77e2e, 5100, Torghira
