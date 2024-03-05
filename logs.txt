@@ -43,3 +43,4 @@
 [03-05 03:21] [INFO] APPROVED 1b77e2e, 5100, Torghira
 [03-05 03:53] [INFO] REMOVED 1b78iwd, 827, Free_2_Play
 [03-05 05:01] [INFO] APPROVED 1b7a7be, 5100, luminatimids
+[03-05 05:16] [INFO] REMOVED 1b7aoq0, 1275, noSaltOnMyFries
