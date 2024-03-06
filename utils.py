@@ -23,7 +23,7 @@ REMOVAL_MESSAGE = """
 \n\n
 **Please don't:**  
 \n\n
-* Use your phone camera to take a picture of your resume  
+* Take a picture of your resume with your phone camera  
 \n\n
 * Take a screenshot of your resume  
 \n\n
