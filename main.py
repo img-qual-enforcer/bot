@@ -43,7 +43,7 @@ def remove(submission, image_width: int) -> None:
 
 def approve(submission, image_width: int) -> None:
     submission.mod.approve()
-    logging.debug(f"APPROVED {submission.id}, {image_width}, {submission.author}")
+    logging.info(f"APPROVED {submission.id}, {image_width}, {submission.author}")
 
 
 def process(submission) -> None:
