@@ -16,3 +16,4 @@
 [03-06 11:36] [INFO] APPROVED 1b8f0tu, 5080, metaman19
 [03-06 11:44] [INFO] APPROVED 1b8f47z, 5100, babajiji99
 [03-06 11:49] [INFO] APPROVED 1b8f9d6, 4961, kalq7
+[03-07 12:00] [WARNING] Retrying due to 500 status: GET https://oauth.reddit.com/r/EngineeringResumes/new
