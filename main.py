@@ -38,12 +38,12 @@ def remove(submission, image_width: int) -> None:
         title="LOW QUALITY IMAGE",
         message=removal_message_with_author,
     )
-    logging.info(f"REMOVED {submission.id}, {image_width}, {submission.author}")
+    logging.info(f"REMOVED {submission.id}, {image_width}")
 
 
 def approve(submission, image_width: int) -> None:
     submission.mod.approve()
-    logging.info(f"APPROVED {submission.id}, {image_width}, {submission.author}")
+    logging.info(f"APPROVED {submission.id}, {image_width}")
 
 
 def process(submission) -> None:
