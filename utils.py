@@ -37,7 +37,7 @@ REMOVAL_MESSAGE = """
 
 def setup_logger():
     logging.basicConfig(
-        format="[%(asctime)s] [%(levelname)s] %(message)s",
+        format="[%(asctime)s] %(message)s",
         datefmt="%m-%d %I:%M",
         level=logging.INFO,
         handlers=[
