@@ -15,7 +15,7 @@ REMOVAL_MESSAGE = """
 \n\n
 1. Export your resume as a [**PDF file**](https://www.adobe.com/uk/acrobat/resources/google-doc-to-pdf.html)  
 \n\n
-2. Convert it to a **[600 DPI](https://www.adobe.com/uk/creativecloud/photography/discover/dots-per-inch-dpi-resolution.html) PNG file** using https://www.cleverpdf.com/pdf-to-images: https://imgur.com/RxxYFQe     
+2. Convert it to a **[600 DPI](https://www.adobe.com/uk/creativecloud/photography/discover/dots-per-inch-dpi-resolution.html) PNG file** using https://www.cleverpdf.com/pdf-to-images. https://imgur.com/RxxYFQe     
 \n\n
 3. On **[DESKTOP (NEW.REDDIT)](https://new.reddit.com/r/{sub}/submit)**, insert the PNG into a **[text submission](https://imgur.com/8iik4YP)**  
 \n\n
